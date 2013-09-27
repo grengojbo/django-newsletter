@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: django-newsleter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-25 13:33+0200\n"
-"PO-Revision-Date: 2013-09-27 05:49+0000\n"
+"PO-Revision-Date: 2013-09-27 06:46+0000\n"
 "Last-Translator: jbo <oleg.dolya@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/django-newsleter/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -150,34 +150,34 @@ msgstr "Адреса електронної пошти %(email)s з занадт
 #: admin_forms.py:66
 #, python-format
 msgid "Name %(name)s too long, maximum length is %(name_length)s characters."
-msgstr ""
+msgstr "Ім'я %(name)s занадто довго, максимальна довжина становить %(name_length)s символів."
 
 #: admin_forms.py:111 admin_forms.py:123 admin_forms.py:156 models.py:166
 msgid "name"
-msgstr ""
+msgstr "назва"
 
 #: admin_forms.py:115
 msgid "display"
-msgstr ""
+msgstr "відображати"
 
 #: admin_forms.py:122
 #, python-format
 msgid ""
 "Name column not found. The name of this column should be either 'name' or "
 "'%s'."
-msgstr ""
+msgstr "Ім'я колонки не знайдений. Назва цієї колонці може бути 'ім'я' або '%s'."
 
 #: admin_forms.py:133 admin_forms.py:145 admin_forms.py:157 models.py:37
 #: models.py:180
 msgid "e-mail"
-msgstr ""
+msgstr "e-mail"
 
 #: admin_forms.py:143
 #, python-format
 msgid ""
 "E-mail column not found. The name of this column should be either 'email', "
 "'e-mail' or '%(email)s'."
-msgstr ""
+msgstr "Колонка з електронною поштою не знайдена. Ім'я цієї колонки має бути \"електронна пошта\", \"Електронна пошта\" або  '%(email)s'."
 
 #: admin_forms.py:153
 #, python-format
@@ -185,49 +185,49 @@ msgid ""
 "Could not properly determine the proper columns in the CSV-file. There "
 "should be a field called 'name' or '%(name)s' and one called 'e-mail' or "
 "'%(e-mail)s'."
-msgstr ""
+msgstr "Неможливо вірно визначити колонки в CSV-файлі. Необхідні поля з іменами 'name' або '%(name)s' і 'e-mail' або '%(e-mail)s'."
 
 #: admin_forms.py:172
 #, python-format
 msgid "Row with content '%(row)s' does not contain a name and email field."
-msgstr ""
+msgstr "Рядок,  '%(row)s' містить, не містить поля імені і електронної пошти."
 
 #: admin_forms.py:184 admin_forms.py:247 admin_forms.py:284
 #, python-format
 msgid "Entry '%s' does not contain a valid e-mail address."
-msgstr ""
+msgstr "Запис '%s' не містить правильну адресу електронної пошти."
 
 #: admin_forms.py:202 admin_forms.py:254 admin_forms.py:290
 #, python-format
 msgid "The address file contains duplicate entries for '%s'."
-msgstr ""
+msgstr "Файл з адресами містить копії '%s'."
 
 #: admin_forms.py:214 admin_forms.py:261 admin_forms.py:296
 msgid "Some entries are already subscribed to."
-msgstr ""
+msgstr "Деякі записи вже підписані."
 
 #: admin_forms.py:239
 #, python-format
 msgid "Entry '%s' contains no email address."
-msgstr ""
+msgstr "У записі  '%s' немає адреси електронної пошти."
 
 #: admin_forms.py:300
 msgid "Some entries have no e-mail address."
-msgstr ""
+msgstr "Деякі записи не містять адресу електронної пошти."
 
 #: admin_forms.py:338
 #, python-format
 msgid "File type '%s' was not recognized."
-msgstr ""
+msgstr "Тип файлу '%s' не був пізнаний."
 
 #: admin_forms.py:357
 #, python-format
 msgid "File extention '%s' was not recognized."
-msgstr ""
+msgstr "Розширення файлу '%s' не було упізнано."
 
 #: admin_forms.py:361
 msgid "No entries could found in this file."
-msgstr ""
+msgstr "Цей файл не містить записів."
 
 #: admin_forms.py:373
 #: templates/admin/newsletter/subscription/confirmimportform.html:12
@@ -239,11 +239,11 @@ msgstr ""
 #: templates/newsletter/subscription_activate.html:5
 #: templates/newsletter/subscription_activate.html:8
 msgid "Newsletter"
-msgstr ""
+msgstr "Розсилка"
 
 #: admin_forms.py:376
 msgid "Address file"
-msgstr ""
+msgstr "Файл з адресами"
 
 #: admin_forms.py:378
 msgid "Ignore non-fatal errors"
